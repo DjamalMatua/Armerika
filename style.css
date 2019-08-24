@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  height: 100vh;
 }
 body .line,
 body .line2,
@@ -77,6 +78,9 @@ body .phone-size-line {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.home-section .arm-info-right table .text-uppercase {
+  font-size: 12px;
+}
 .home-section .arm-info-right table th {
   width: 50%;
   font-size: 16px;
@@ -98,7 +102,7 @@ body .phone-size-line {
 .home-section .american-description {
   padding-left: 3vw;
   padding-right: 3vw;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 .home-section .american-description p {
   font-size: 16px;
@@ -126,7 +130,7 @@ footer {
   padding-left: 3vw;
   padding-right: 3vw;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 27px;
 }
 footer ul {
   list-style: none;
