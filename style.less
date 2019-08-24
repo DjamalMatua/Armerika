@@ -1,0 +1,319 @@
+/***GENERAL***/
+body{
+    padding: 0;
+    margin: 0;
+    .line, .line2, .phone-size-line {
+	    background-color: @yellow-color;
+            height: 2px;
+        margin: 0;
+}
+}
+
+/***FONTS***/
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('font/SegoeUI.eot');
+    src: url('font/SegoeUI.eot?#iefix') format('embedded-opentype'),
+        url('font/SegoeUI.woff2') format('woff2'),
+        url('font/SegoeUI.woff') format('woff'),
+        url('font/SegoeUI.ttf') format('truetype'),
+        url('font/SegoeUI.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.regular{
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+/***COLORS***/
+
+@text-color: #000000;
+@yellow-color: #e9db46;
+@green-color: #51a437;
+@white-color: #ffffff;
+
+/***HOME-SECTION***/
+.home-section {
+    padding-top: 30px;
+	.arm-info-left {
+        padding-left: 3vw;
+        padding-right: 3vw;
+        p{
+            color: @text-color;
+            font-size: 16px;
+            .regular;
+        }
+        img{
+            padding: 10px;
+            padding-left: 0;
+            float: left;
+        }
+        .line {
+	display: none;
+}
+        .american-description {
+	        padding: 0;
+            display: none;
+}
+        .phone-size-line {
+	        display: none;
+}
+}
+    .arm-info-right {
+	   padding-left: 3vw;
+        padding-right: 3vw;
+        h3{
+            color: @yellow-color;
+            font-size: 17px;
+            .regular;
+            margin: 0;
+        }
+        h1{
+            color: @green-color;
+            .regular;
+            font-size: 24px;
+        }
+        img{
+            width: 100%;
+        }
+        table{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            th{
+            width: 50%;
+            font-size: 16px;
+            color: @text-color;
+            .regular;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        }
+        .baner{
+            display: none;
+        }
+        .line2{
+            display: none;
+        }
+        .table-phone-size {
+	        display: none;
+}
+}
+    .american-description {
+        padding-left: 3vw;
+        padding-right: 3vw;
+        margin-bottom: 10%;
+        p{
+            font-size: 16px;
+            .regular;
+            color: @text-color;
+            padding-top: 2%;
+        }
+}
+    .baner{
+        padding-left: 3vw;
+        padding-right: 3vw;
+        img{
+            width: 100%;
+            padding-left: 7%;
+            padding-right: 7%;
+            padding-top: 2%;
+        }
+    }
+    
+    .phone-size-logo {
+        .baner {
+	    display: none;
+}
+	    
+}
+}
+
+/***FOOTER***/
+footer{
+    background-color: @green-color;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            margin-bottom: 6px;
+            img{
+                margin-right: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: @white-color;
+                font-size: calc(0.4vw + 12px);
+                &:hover{
+                    text-decoration: none;
+                    color: @white-color;
+                }
+            }
+        }
+    }
+    .social-icons {
+	    padding-top: 15px;
+}
+    .footer-logo {
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 464px;
+        }
+}
+    .footer-logo-phone-size {
+	    display: none;
+}
+}
+
+/***MEDIA***/
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .home-section {
+        padding-top: 0;
+	    .phone-size-logo {
+            text-align: center;
+	        .baner {
+	            display: block !important;
+
+	            img {
+	                padding-bottom: 20px;
+	            }
+
+	            h3 {
+	                color: @yellow-color;
+	                font-size: 17px;
+	                .regular;
+	                margin: 0;
+	            }
+
+	            h1 {
+	                color: @green-color;
+	                .regular;
+	                font-size: 24px;
+	            }
+                
+                .line {
+	                margin-bottom: 20px;
+}
+	        }
+	    
+}
+        .arm-info-left {
+            text-align: center;
+            img{
+                float: none;
+                width: 100%;
+            }
+            .phone-size-line {
+	            display: block;
+}
+            p{
+                margin-top: 16px;
+            }
+            .american-description {
+                p{
+                    padding: 0;
+                }
+}
+}
+        .arm-info-right {
+            .baner{
+                display: none !important;
+            }
+            h3, h1{
+                display: none;
+            }
+            .table-phone-size {
+	            display: block;
+                text-align: center;
+                padding-bottom: 16px;
+                p{
+                    margin-bottom: 0;
+                }
+}
+            table{
+                display: none;
+            }
+            .line2 {
+	            display: none !important;
+}
+}
+}
+    footer{
+        .footer-logo {
+	        display: none;
+}
+        .footer-logo-phone-size {
+	        display: block;
+            margin-top: 20px;
+            img{
+                width: 30%;
+                display: block;
+                margin: 0 auto;
+            }
+}
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    
+    .home-section {
+	    .arm-info-left {
+	    .line {
+	display: block;
+}
+            .american-description {
+	            display: block;
+}
+}
+        .arm-info-right{
+            .baner {
+	            display: block;
+                margin-bottom: 30px;
+}
+            .table_block {
+	        .line {
+	        display: none;
+}
+            .line2{
+                    display: block;
+                    margin-bottom: 20px;
+                }
+}
+        }
+        .american-description {
+	        display: none;
+            margin-bottom: 0;
+            .line{
+                margin-bottom: 16px;
+            }
+}
+        .baner {
+	        display: none;
+}
+}
+    footer{
+        .footer-logo {
+            img{
+                padding-top: 20px;
+            }
+}
+    }
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
