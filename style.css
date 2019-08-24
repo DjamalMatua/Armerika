@@ -196,6 +196,8 @@ footer .footer-logo-phone-size {
   .home-section .arm-info-left img {
     float: none;
     width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
   }
   .home-section .arm-info-left .phone-size-line {
     display: block;
