@@ -13,15 +13,8 @@ body .phone-size-line {
   margin: 0;
 }
 /***FONTS***/
-@font-face {
-  font-family: 'Segoe UI';
-  src: url('font/SegoeUI.eot');
-  src: url('font/SegoeUI.eot?#iefix') format('embedded-opentype'), url('font/SegoeUI.woff2') format('woff2'), url('font/SegoeUI.woff') format('woff'), url('font/SegoeUI.ttf') format('truetype'), url('font/SegoeUI.svg#SegoeUI') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 .regular {
-  font-family: 'Segoe UI';
+  font-family: sans-serif;
   font-weight: 400;
 }
 /***COLORS***/
@@ -36,7 +29,7 @@ body .phone-size-line {
 .home-section .arm-info-left p {
   color: #000000;
   font-size: 16px;
-  font-family: 'Segoe UI';
+  font-family: sans-serif;
   font-weight: 400;
 }
 .home-section .arm-info-left img {
@@ -61,13 +54,13 @@ body .phone-size-line {
 .home-section .arm-info-right h3 {
   color: #e9db46;
   font-size: 17px;
-  font-family: 'Segoe UI';
+  font-family: sans-serif;
   font-weight: 400;
   margin: 0;
 }
 .home-section .arm-info-right h1 {
   color: #51a437;
-  font-family: 'Segoe UI';
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 24px;
 }
@@ -80,12 +73,13 @@ body .phone-size-line {
 }
 .home-section .arm-info-right table .text-uppercase {
   font-size: 12px;
+  font-weight: 700;
 }
 .home-section .arm-info-right table th {
   width: 50%;
   font-size: 16px;
   color: #000000;
-  font-family: 'Segoe UI';
+  font-family: sans-serif;
   font-weight: 400;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -106,7 +100,7 @@ body .phone-size-line {
 }
 .home-section .american-description p {
   font-size: 16px;
-  font-family: 'Segoe UI';
+  font-family: sans-serif;
   font-weight: 400;
   color: #000000;
   padding-top: 2%;
@@ -181,13 +175,13 @@ footer .footer-logo-phone-size {
   .home-section .phone-size-logo .baner h3 {
     color: #e9db46;
     font-size: 17px;
-    font-family: 'Segoe UI';
+    font-family: sans-serif;
     font-weight: 400;
     margin: 0;
   }
   .home-section .phone-size-logo .baner h1 {
     color: #51a437;
-    font-family: 'Segoe UI';
+    font-family: sans-serif;
     font-weight: 400;
     font-size: 24px;
   }
